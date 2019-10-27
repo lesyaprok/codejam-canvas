@@ -61,10 +61,24 @@
                 </div>
             </section>
         </div>
-        <div class="canvas">
-            <canvas></canvas>
-        </div>
+        
+            <canvas id="canvas" class="canvas"></canvas>
+        
     </main>
+
+    <script>
+        var imgCanvas = document.getElementById("canvas"),
+            context = imgCanvas.getContext('2d'),
+            pic = new Image();
+        pic.src = './data/rss.png';
+        pic.onload = function () {
+            context.drawImage(pic, 0, 0);
+            context.drawImage(pic, 0, 0, 300, 150);
+        }
+ 
+
+
+    </script>
 </body>
 
 </html>
