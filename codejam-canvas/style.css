@@ -84,18 +84,18 @@ main {
 }
 
 .switcher {
-    float: right;
     position: relative;
-    bottom: 650px;
-    height: 120px;
-    width: 300px;
+    bottom: 1185px;
+    left: 1050px;
+    height: 110px;
+    width: 250px;
     background-color: rgb(223, 223, 223);
     box-shadow:  0 4px 4px rgba(0, 0, 0, 0.24); 
 }
 .switcher button {
     display: block;
     width: 100%;
-    margin: 15px 0 15px 0;
+    margin-top: 15px;
     box-shadow:  0 4px 4px rgba(0, 0, 0, 0.24); 
     
 }
